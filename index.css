@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+body {
+    margin: 60px 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main {
+    width: 600px;
+}
+
+#div-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #10255b;
+    padding: 50px 20px;
+}
+
+#div-body {
+    text-align: center;
+    background: #f2f2f2;
+    padding: 50px;
+}
+
+.unit-container {
+    padding: 10px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+.subhead {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+#input-el {
+    margin: 20px 0;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 40px;
+}
+
+
+button {
+    background: #fad649;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    padding: 10px 35px;
+    border: none;
+    cursor: pointer;
+    margin: 0 2px;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
